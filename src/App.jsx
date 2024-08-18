@@ -1,11 +1,11 @@
-import PostForm from "./components/PostForm";
-import PostPage from "./Page/PostPage";
+import Layout from "./components/Layout";
+// import PostForm from "./components/PostForm";
 
 const App = () => {
   return (
     <div>
-      <PostForm />
-      {/* <PostPage /> */}
+      {/* <PostForm /> */}
+      <Layout />
     </div>
   );
 };
